@@ -1,0 +1,6 @@
+# macOS 시스템 파일
+.DS_Store
+# IDE 관련 디렉토리
+.vscode/
+
+!.gitignore
