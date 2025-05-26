@@ -1,36 +1,36 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <script
-      src="https://kit.fontawesome.com/60e7029278.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+    <script src="https://kit.fontawesome.com/60e7029278.js" crossorigin="anonymous" defer></script>
     <script type="module" src="src/main.js" defer></script>
     <title>👩🏻‍🌾당근 뽑기 게임</title>
-  </head>
+</head>
 
-  <body>
+<body>
+    <!-- 게임 영역 -->
     <section class="game">
-      <header class="game__header">
-        <button class="game__button">
+        <header class="game__header">
+            <button class="game__button">
           <i class="fa-solid fa-play"></i>
         </button>
-        <span class="game__timer"></span>
-        <span class="game__score"></span>
-      </header>
+            <span class="game__timer"></span>
+            <span class="game__score"></span>
+        </header>
 
-      <section class="game__field"></section>
+        <section class="game__field"></section>
     </section>
 
+    <!-- 팝업 영역 -->
     <section class="pop-up pop-up--hide">
-      <button class="pop-up__refresh">
+        <button class="pop-up__refresh">
         <i class="fa-solid fa-arrow-rotate-right"></i>
       </button>
-      <span class="pop-up__message"></span>
+        <span class="pop-up__message"></span>
     </section>
-  </body>
+</body>
+
 </html>
