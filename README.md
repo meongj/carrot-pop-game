@@ -13,7 +13,7 @@
 
 ---
 
-## 사용 기술
+## 🛠️ 사용 기술
 
 - HTML5
 - Vanilla JavaScript (ES6)
