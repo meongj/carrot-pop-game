@@ -8,9 +8,9 @@ const gameFinishBanner = new PopUp();
 
 // 빌더 패턴을 이용해서 어떤 값을 썼는지 알수 있음
 const game = new GameBuilder()
-    .withGameDuration(20)
-    .withCarrotCount(20)
-    .withBugCount(30)
+    .withGameDuration(10)
+    .withCarrotCount(10)
+    .withBugCount(10)
     .build();
 
 game.setGameStopListener((reason) => {

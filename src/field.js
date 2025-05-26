@@ -6,7 +6,7 @@ import * as sound from "./sound.js";
  * 아이템을 원하는 곳에 배치
  * 클릭 이벤트 처리
  */
-const CARROT_SIZE = 80;
+const CARROT_SIZE = 100;
 
 export const ItemType = Object.freeze({
     carrot: "carrot",
@@ -50,6 +50,8 @@ export class Field {
             item.setAttribute("src", imgPath);
             item.style.position = "absolute";
             item.style.outline = "none";
+            item.style.width = "80px";
+            item.style.height = "80px";
 
             const x = randomNumber(x1, x2);
             const y = randomNumber(y1, y2);
